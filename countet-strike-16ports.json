@@ -1,6 +1,6 @@
 [
     {
-        "Protocol": "Both",
+        "Protocol": "UDP",
         "Port": "27015",
         "Name": "Main Game Port",
         "Description": "Port used for main game traffic",
