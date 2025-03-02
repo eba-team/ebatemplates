@@ -1,0 +1,13 @@
+[
+    {
+        "UpdateStageName": "Szerver Update",
+        "UpdateSourcePlatform": "Linux",
+        "UpdateSource": "SteamCMD",
+        "UpdateSourceData": "10",
+        "UpdateSourceArgs": "90",
+        "UnzipUpdateSource": false,
+        "OverwriteExistingFiles": false,
+        "DeleteAfterExtract": true,
+        "OneShot": false
+    }
+]

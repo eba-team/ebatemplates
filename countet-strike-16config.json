@@ -1,0 +1,36 @@
+[
+    {
+        "DisplayName": "sys_ticrate",
+        "Category": "Server Settings",
+        "Description": "",
+        "Keywords": "sys_ticrate",
+        "FieldName": "sys_ticrate",
+        "InputType": "number",
+        "IsFlagArgument": false,
+        "ParamFieldName": "sys_ticrate",
+        "IncludeInCommandLine": false,
+        "DefaultValue": "100p",
+        "Placeholder": "100p",
+        "Suffix": "",
+        "Hidden": false,
+        "SkipIfEmpty": false,
+        "EnumValues": {}
+    },
+    {
+        "DisplayName": "pingboost",
+        "Category": "Server Settings",
+        "Description": "",
+        "Keywords": "pingboost",
+        "FieldName": "pingboost",
+        "InputType": "number",
+        "IsFlagArgument": false,
+        "ParamFieldName": "pingboost",
+        "IncludeInCommandLine": false,
+        "DefaultValue": "1000",
+        "Placeholder": "1000",
+        "Suffix": "",
+        "Hidden": false,
+        "SkipIfEmpty": false,
+        "EnumValues": {}
+    }
+]
