@@ -14,7 +14,7 @@
     {
         "DisplayName": "Szerver Jelszó",
         "Category": "Counter-Strike 1.6:stadia_controller",
-        "Subcategory": "Server:dns:1",
+        "Subcategory": "Szerver:dns:1",
         "Description": "leiras",
         "Keywords": "server,password,sv_password",
         "FieldName": "sv_password",
@@ -26,7 +26,7 @@
     {
         "DisplayName": "RCON Jelszó",
         "Category": "Counter-Strike 1.6:stadia_controller",
-        "Subcategory": "Server:dns:1",
+        "Subcategory": "Szerver:dns:1",
         "Description": "See the Security and Privacy menu for configurable options for the server's RCON",
         "Keywords": "rcon,password,rcon_password",
         "FieldName": "$RemoteAdminPassword",
@@ -38,7 +38,7 @@
     {
         "DisplayName": "Map",
         "Category": "Counter-Strike 1.6:stadia_controller",
-        "Subcategory": "Server:dns:1",
+        "Subcategory": "Szerver:dns:1",
         "Description": "Sets the map to start the server with. If \"Custom\" is selected, Custom Initial Map must also be specified",
         "Keywords": "map",
         "FieldName": "map",
@@ -78,7 +78,7 @@
         {
         "DisplayName": "Custom Initial Map",
         "Category": "Counter-Strike 1.6:stadia_controller",
-        "Subcategory": "Server:dns:1",
+        "Subcategory": "Szerver:dns:1",
         "Description": "Sets a custom map to use for the Initial Map, if \"Custom\" is selected",
         "Keywords": "custom,map",
         "FieldName": "CustomMap",
@@ -90,7 +90,7 @@
     {
         "DisplayName": "Map Rotation Cycle",
         "Category": "Counter-Strike 1.6:stadia_controller",
-        "Subcategory": "Server:dns:1",
+        "Subcategory": "Szerver:dns:1",
         "Description": "Sets the map rotation list",
         "Keywords": "map,rotation,cycle,mapcycle",
         "FieldName": "mapcycle",
@@ -103,7 +103,7 @@
         {
         "DisplayName": "Player Limit",
         "Category": "Counter-Strike 1.6:stadia_controller",
-        "Subcategory": "Server:dns:1",
+        "Subcategory": "Szerver:dns:1",
         "Description": "Sets the maximum number of players allowed on the server at one time",
         "Keywords": "max,players,limit,maxplayers",
         "FieldName": "$MaxUsers",
@@ -120,7 +120,7 @@
         {
         "DisplayName": "Tick Rate",
         "Category": "Counter-Strike 1.6:stadia_controller",
-        "Subcategory": "Server:dns:1",
+        "Subcategory": "Szerver:dns:1",
         "Description": "Sets the maximum number of frames per second (FPS) that the server can calculate",
         "Keywords": "maximum,fps,frames,tick,rate,sys_ticrate",
         "FieldName": "sys_ticrate",
@@ -136,7 +136,7 @@
         {
         "DisplayName": "Disable Valve Anti-Cheat",
         "Category": "Counter-Strike 1.6:stadia_controller",
-        "Subcategory": "Server:dns:1",
+        "Subcategory": "Szerver:dns:1",
         "Description": "If set, Valve Anti-Cheat (VAC) will be disabled",
         "Keywords": "valve,anti,cheat,vac,insecure",
         "FieldName": "insecure",
@@ -151,7 +151,7 @@
         {
         "DisplayName": "Ping Boost",
         "Category": "Counter-Strike 1.6:stadia_controller",
-        "Subcategory": "Server:dns:1",
+        "Subcategory": "Szerver:dns:1",
         "Description": "Selects between optimised network code stack. Setting at 2 usually reduces latency toward 1ms without loss of activity input packets",
         "Keywords": "ping,boost,latency,network,pingboost",
         "FieldName": "pingboost",
@@ -168,7 +168,7 @@
      {
         "DisplayName": "Szerver Verzio",
         "Category": "Counter-Strike 1.6:stadia_controller",
-        "Subcategory": "Version:dns:1",
+        "Subcategory": "Verzio:dns:1",
         "Description": "Sets the server branch to install. NOTE: Update the server after switching branches!",
         "Keywords": "server,branch,public,legacy",
         "FieldName": "ServerBranch",
