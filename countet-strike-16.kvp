@@ -15,7 +15,7 @@ App.AdminMethod=STDIO
 App.HasReadableConsole=true
 App.HasWritableConsole=true
 App.DisplayName=Countet-Strike 1.6
-App.CommandLineArgs={{$PlatformArgs}} -console -game cstrike -port {{$MainGamePort}} -sys_ticrate={{sys_ticrate}} +ip {{$ApplicationIPBinding}} +rcon_password "{{$RemoteAdminPassword}}" {{$FormattedArgs}} +log on
+App.CommandLineArgs={{$PlatformArgs}} -console -game cstrike +port {{$MainGamePort}} +ip {{$ApplicationIPBinding}} +map de_dust2 +maxplayers 32 +rcon_password "{{$RemoteAdminPassword}}" {{$FormattedArgs}}
 App.WindowsCommandLineArgs=
 App.CommandLineParameterFormat=-{0} "{1}"
 App.CommandLineParameterDelimiter=
