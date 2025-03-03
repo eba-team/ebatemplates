@@ -1,13 +1,11 @@
 [
-    {
-        "UpdateStageName": "Szerver Update",
-        "UpdateSourcePlatform": "Linux",
+        {
+        "UpdateStageName": "SteamCMD szerver frissites",
+        "UpdateSourcePlatform": "All",
         "UpdateSource": "SteamCMD",
         "UpdateSourceData": "90",
         "UpdateSourceArgs": "10",
-        "UnzipUpdateSource": false,
-        "OverwriteExistingFiles": false,
-        "DeleteAfterExtract": true,
-        "OneShot": false
-    }
+        "UpdateSourceVersion": "{{ServerBranch}}",
+        "UpdateSourceExtra": "cstrike"
+    },
 ]
