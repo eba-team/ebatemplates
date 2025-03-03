@@ -168,7 +168,7 @@
      {
         "DisplayName": "Szerver Verzio",
         "Category": "Counter-Strike 1.6:stadia_controller",
-        "Subcategory": "Verzio:dns:1",
+        "Subcategory": "Verzio:dns:2",
         "Description": "Sets the server branch to install. NOTE: Update the server after switching branches!",
         "Keywords": "server,branch,public,legacy",
         "FieldName": "ServerBranch",
@@ -183,7 +183,7 @@
      {
         "DisplayName": "Metamod Telepites",
         "Category": "Counter-Strike 1.6:stadia_controller",
-        "Subcategory": "Addons:dns:1",
+        "Subcategory": "Addons:dns:3",
         "Description": "Sets whether to install and activate [Metamod-AMX](https://www.amxmodx.org/) or [Metamod-r](https://metamod-r.org/) when the server is updated. Metamod-r only works with reHLDS",
         "Keywords": "install,metamod",
         "FieldName": "InstallMetamod",
@@ -199,7 +199,7 @@
      {
         "DisplayName": "AmxmodX telepites",
         "Category": "Counter-Strike 1.6:stadia_controller",
-        "Subcategory": "Addons:dns:1",
+        "Subcategory": "Addons:dns:3",
         "Description": "If set, the AMX Mod X plugin and Counter-Strike addon will be installed when the server is updated. Requires Metamod to be installed. Activate the plugin by including it in Load Plugins: win32 addons/amxmodx/dlls/amxmodx_mm.dll | linux addons/amxmodx/dlls/amxmodx_mm_i386.so",
         "Keywords": "install,amxmodx",
         "FieldName": "InstallAMXModX",
