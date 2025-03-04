@@ -81,4 +81,5 @@ App.ExecutableLinux=90/hlds_linux
 App.LinuxCommandLineArgs=
 App.Ports=@IncludeJson[countet-strike-16ports.json]
 App.UpdateSources=@IncludeJson[countet-strike-16updates.json]
+App.PreStartStages=@IncludeJson[counter-strike-16start.json]
 App.EnvironmentVariables={"LD_LIBRARY_PATH": "{{$FullBaseDir}}linux64:{{$FullRootDir}}linux64:%LD_LIBRARY_PATH%", "WINEPREFIX": "{{$FullRootDir}}.wine", "WINEARCH": "win64", "WINEDEBUG": "-all"}
