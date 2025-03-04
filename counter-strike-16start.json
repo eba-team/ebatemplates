@@ -4,7 +4,7 @@
         "UpdateSourcePlatform": "Linux",
         "UpdateSource": "Executable",
         "UpdateSourceData": "/bin/bash",
-        "UpdateSourceArgs": "-c \"ln -s {{$FullBaseDir}}cstrike /var/www/fastdl.ebateam.eu/cs_{{$MainGamePort}} \"",
+        "UpdateSourceArgs": "-c \"ln -sf {{$FullBaseDir}}cstrike /var/www/fastdl.ebateam.eu/cs_{{$MainGamePort}} \"",
         "UpdateSourceConditionSetting": "",
         "UpdateSourceConditionValue": ""
     }
