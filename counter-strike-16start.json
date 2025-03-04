@@ -1,1 +1,11 @@
-[]
+[
+  {
+        "UpdateStageName": "Fastdl Linkeles",
+        "UpdateSourcePlatform": "Linux",
+        "UpdateSource": "Executable",
+        "UpdateSourceData": "/bin/bash",
+        "UpdateSourceArgs": "-c \"ln -s {{$FullBaseDir}}cstrike /var/www/fastdl.ebateam.eu/{{$InstanceName}} \"",
+        "UpdateSourceConditionSetting": "",
+        "UpdateSourceConditionValue": ""
+    }
+]
