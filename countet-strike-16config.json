@@ -111,6 +111,21 @@
             "True": "-insecure "
         }
     },
+    {
+        "DisplayName": "Gyorsletoltes",
+        "Category": "Counter-Strike 1.6:stadia_controller",
+        "Subcategory": "Szerver:dns:1",
+        "Description": "Automatikusan bealitja gyorsletoltest",
+        "Keywords": "valve,anti,cheat,vac,insecure",
+        "FieldName": "insecure",
+        "InputType": "checkbox",
+        "ParamFieldName": "insecure",
+        "DefaultValue": "",
+        "EnumValues": {
+            "False": "be",
+            "True": "ki"
+        }
+    },
         {
         "DisplayName": "Ping Boost",
         "Category": "Counter-Strike 1.6:stadia_controller",
