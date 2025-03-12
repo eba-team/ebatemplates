@@ -116,10 +116,10 @@
         "Category": "Counter-Strike 1.6:stadia_controller",
         "Subcategory": "Szerver:dns:1",
         "Description": "Automatikusan bealitja gyorsletoltest",
-        "Keywords": "valve,anti,cheat,vac,insecure",
-        "FieldName": "insecure",
+        "Keywords": "fastdl",
+        "FieldName": "fastdl",
         "InputType": "checkbox",
-        "ParamFieldName": "insecure",
+        "ParamFieldName": "fastdl",
         "DefaultValue": "",
         "EnumValues": {
             "False": "be",
